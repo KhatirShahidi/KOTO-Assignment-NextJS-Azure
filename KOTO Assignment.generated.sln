@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KOTO Backend", "KOTO Backend\KOTO Backend.csproj", "{55214085-1973-4E1A-91D1-7AC777734556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KOTO Backend (1)", "KOTO Backend", "{0D507D2E-9602-4A6C-A502-25EEAE6E40EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{6049C08D-AF80-41A8-A99E-777B239B00E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{05C8CDD2-A32F-4409-9946-353877F6A1C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{106BA79F-3ECA-408A-B3B7-9C6C1AA5DED0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "KOTO Backend\obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{66C3A62C-97F8-4B7B-B1F7-35C37B93EB90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55214085-1973-4E1A-91D1-7AC777734556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55214085-1973-4E1A-91D1-7AC777734556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55214085-1973-4E1A-91D1-7AC777734556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55214085-1973-4E1A-91D1-7AC777734556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C3A62C-97F8-4B7B-B1F7-35C37B93EB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C3A62C-97F8-4B7B-B1F7-35C37B93EB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C3A62C-97F8-4B7B-B1F7-35C37B93EB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C3A62C-97F8-4B7B-B1F7-35C37B93EB90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6049C08D-AF80-41A8-A99E-777B239B00E6} = {0D507D2E-9602-4A6C-A502-25EEAE6E40EF}
+		{05C8CDD2-A32F-4409-9946-353877F6A1C8} = {6049C08D-AF80-41A8-A99E-777B239B00E6}
+		{106BA79F-3ECA-408A-B3B7-9C6C1AA5DED0} = {05C8CDD2-A32F-4409-9946-353877F6A1C8}
+		{66C3A62C-97F8-4B7B-B1F7-35C37B93EB90} = {106BA79F-3ECA-408A-B3B7-9C6C1AA5DED0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF844713-3921-4148-9DDF-81CED54CC615}
+	EndGlobalSection
+EndGlobal
